@@ -43,7 +43,7 @@ for (file, lines) in [exp1,exp2,exp3]:
     plt.ylabel('Ratio of reference instances with erratic pairs')
     plt.xticks([0]+xValues)
     plt.legend()
-    plt.savefig(f'{file}-Graph.png',dpi=400)
+    plt.savefig(f'./Graphs/{file}-Graph.png',dpi=400)
     plt.cla()
 
 
